@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.dashboard-container {
+    padding: 20px;
+    background-color: #f5f6fa;
+}
+
+.dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 11px;
+    background-color: #ffff;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    border-radius: 11px;
+    background-color: #ffff;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.1px;
+    text-align: left;
+
+}
+
+.dashboard-table th {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 19.1px;
+    text-align: left;
+    font-weight: bold;
+    background-color: #ffff;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination-buttons button {
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+body {
+    background: #F5F6FA;
+    margin: 0; 
+    padding: 0; 
+  }
+
+.form-container {
+  position: relative;
+  left: 20px;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+  width: 140%;
+  padding: 20px; 
+  background-color: #ffff;
+}
+
+.form-group {
+  display: flex; 
+  justify-content: space-between; 
+  margin-bottom: 15px; 
+}
+
+.input-group-1{
+
+  margin-right: 40px;
+  display: flex; 
+  flex-direction: column; 
+  width: 30%;
+}
+.input-group-2{
+    display: flex; 
+    flex-direction: column; 
+    width: 100%;
+  }
+  
+
+.input-field-1{
+    width: 100%; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    padding: 10px; 
+    margin-bottom: 20px;
+  }
+  
+  .input-field-2 {
+    width: 97.5%; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%; 
+  }
+  
+  .input-pair {
+    display: flex;
+    flex-direction: column; 
+    flex: 1; 
+  }
+  
+  .input-field-3 {
+    width: 95%; 
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .input-group-4{
+    display: flex;
+    flex-direction: column;
+    width: 103%;
+  }
+  .input-field-5 {
+    width: 102%; 
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+
+.form-group label {
+  margin-bottom: 5px; 
+}
+
+.required {
+  color: red; 
+  margin-left: 5px; 
+}
+
+
+.form-actions {
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+}
+
+
+
+.cancel-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    border: 2px solid #4880FF;
+    color: #4880FF;
+    padding: 10px 20px; 
+  cursor: pointer;
+}
+
+.save-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #4880FF;
+    color: #ffff;
+    padding: 10px 20px;
+  border: none; 
+  cursor: pointer; 
+}

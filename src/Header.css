@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+.app-container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .dashboard-container {
+    padding: 20px;
+    background-color: #f5f6fa;
+  }
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+
+  }
+  
+  .dashboard-title-highlight {
+    color: #4285f4; 
+  }
+  
+  .add-ranch-button {
+    background-color: #ff8c42; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 14px;
+  }
+  .sidebar {
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 9999;
+    background-color: #fff;
+  }
+  .sidebar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dashboard-item {
+    width: 100%;
+    height: 50px;
+    top: 75px;
+    left: 24px;
+    border-radius: 6px;
+    background: #4880FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .sidebar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+    font-family: Nunito Sans;
+font-size: 14px;
+text-align: left;
+
+
+  }
+  
+  .sidebar-footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .header {
+    position: fixed; 
+    top: 0; 
+    right: 55px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+   
+  }
+  
+
+  
+  
